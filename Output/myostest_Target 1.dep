@@ -1,0 +1,68 @@
+Dependencies for Project 'myostest', Target 'Target 1': (DO NOT MODIFY !)
+F (..\User\main.c)(0x5A65912A)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc-I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DLPC177x_8x-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\User\user_config.h)(0x5A658F22)
+I (..\User\lpc17xx_conf.h)(0x5A618C3B)
+I (..\Libraries\Drivers\include\lpc177x_8x_clkpwr.h)(0x57E78C35)
+I (..\Libraries\Core\LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Core\core_cm3.h)(0x57E78C33)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\Libraries\Core\system_LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Drivers\include\lpc_types.h)(0x57E78C2E)
+I (..\Libraries\Drivers\include\lpc177x_8x_gpio.h)(0x57E78C2D)
+I (..\Libraries\Drivers\include\lpc177x_8x_nvic.h)(0x57E78C2D)
+I (..\Libraries\Drivers\include\lpc177x_8x_pinsel.h)(0x57E78C2D)
+I (..\Libraries\Drivers\include\lpc177x_8x_systick.h)(0x57E78C2E)
+I (..\Libraries\Drivers\include\lpc177x_8x_timer.h)(0x57E78C2E)
+I (..\Libraries\Drivers\include\lpc177x_8x_uart.h)(0x57E78C2E)
+I (..\Libraries\Drivers\include\lpc177x_8x_wwdt.h)(0x57E78C2E)
+I (..\Hardware\inc\uart0.h)(0x5A619EDC)
+I (..\User\myos.h)(0x5A619F5D)
+F (..\Startup\startup_LPC17xx.s)(0x5A65826B)(--cpu Cortex-M3 -g --apcs=interwork -I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 518" --pd "LPC177x_8x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o ..\output\startup_lpc17xx.o --depend ..\output\startup_lpc17xx.d)
+F (..\Libraries\Core\core_cm3.c)(0x57E78C33)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc-I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DLPC177x_8x-o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+F (..\Libraries\Core\system_LPC177x_8x.c)(0x5A658FA9)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc-I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DLPC177x_8x-o ..\output\system_lpc177x_8x.o --omf_browse ..\output\system_lpc177x_8x.crf --depend ..\output\system_lpc177x_8x.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\Libraries\Core\LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Core\core_cm3.h)(0x57E78C33)
+I (..\Libraries\Core\system_LPC177x_8x.h)(0x57E78C33)
+F (..\Libraries\Drivers\source\lpc177x_8x_clkpwr.c)(0x57E78C35)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc-I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DLPC177x_8x-o ..\output\lpc177x_8x_clkpwr.o --omf_browse ..\output\lpc177x_8x_clkpwr.crf --depend ..\output\lpc177x_8x_clkpwr.d)
+I (..\Libraries\Drivers\include\lpc177x_8x_libcfg_default.h)(0x57E78C2D)
+I (..\Libraries\Drivers\include\lpc_types.h)(0x57E78C2E)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\Libraries\Drivers\include\lpc177x_8x_clkpwr.h)(0x57E78C35)
+I (..\Libraries\Core\LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Core\core_cm3.h)(0x57E78C33)
+I (..\Libraries\Core\system_LPC177x_8x.h)(0x57E78C33)
+F (..\Libraries\Drivers\source\lpc177x_8x_gpio.c)(0x57E78C35)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc-I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DLPC177x_8x-o ..\output\lpc177x_8x_gpio.o --omf_browse ..\output\lpc177x_8x_gpio.crf --depend ..\output\lpc177x_8x_gpio.d)
+I (..\Libraries\Drivers\include\lpc177x_8x_libcfg_default.h)(0x57E78C2D)
+I (..\Libraries\Drivers\include\lpc_types.h)(0x57E78C2E)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\Libraries\Drivers\include\lpc177x_8x_gpio.h)(0x57E78C2D)
+I (..\Libraries\Core\LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Core\core_cm3.h)(0x57E78C33)
+I (..\Libraries\Core\system_LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Drivers\include\lpc177x_8x_clkpwr.h)(0x57E78C35)
+F (..\Libraries\Drivers\source\lpc177x_8x_systick.c)(0x57E78C35)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc-I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DLPC177x_8x-o ..\output\lpc177x_8x_systick.o --omf_browse ..\output\lpc177x_8x_systick.crf --depend ..\output\lpc177x_8x_systick.d)
+I (..\Libraries\Drivers\include\lpc177x_8x_libcfg_default.h)(0x57E78C2D)
+I (..\Libraries\Drivers\include\lpc_types.h)(0x57E78C2E)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\Libraries\Drivers\include\lpc177x_8x_systick.h)(0x57E78C2E)
+I (..\Libraries\Core\LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Core\core_cm3.h)(0x57E78C33)
+I (..\Libraries\Core\system_LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Drivers\include\lpc177x_8x_clkpwr.h)(0x57E78C35)
+F (..\Libraries\Drivers\source\lpc177x_8x_uart.c)(0x57E78C35)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc-I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DLPC177x_8x-o ..\output\lpc177x_8x_uart.o --omf_browse ..\output\lpc177x_8x_uart.crf --depend ..\output\lpc177x_8x_uart.d)
+I (..\Libraries\Drivers\include\lpc177x_8x_libcfg_default.h)(0x57E78C2D)
+I (..\Libraries\Drivers\include\lpc_types.h)(0x57E78C2E)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\Libraries\Drivers\include\lpc177x_8x_uart.h)(0x57E78C2E)
+I (..\Libraries\Core\LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Core\core_cm3.h)(0x57E78C33)
+I (..\Libraries\Core\system_LPC177x_8x.h)(0x57E78C33)
+I (..\Libraries\Drivers\include\lpc177x_8x_clkpwr.h)(0x57E78C35)
+F (..\Hardware\src\uart0.c)(0x5A619F2A)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc-I E:\Mycode\myospro\Project\RTE-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-I D:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DLPC177x_8x-o ..\output\uart0.o --omf_browse ..\output\uart0.crf --depend ..\output\uart0.d)
+I (..\Hardware\inc\uart0.h)(0x5A619EDC)
+I (..\Libraries\Core\lpc177x_8x.h)(0x57E78C33)
+I (..\Libraries\Core\core_cm3.h)(0x57E78C33)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\Libraries\Core\system_LPC177x_8x.h)(0x57E78C33)

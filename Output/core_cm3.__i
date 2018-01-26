@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\Libraries\Core -I ..\User -I ..\Libraries\Drivers\include -I ..\Hardware\inc
+-I E:\Mycode\myospro\Project\RTE
+-I D:\Keil\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include
+-I D:\Keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="518" -DLPC177x_8x
+-o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d "..\Libraries\Core\core_cm3.c"

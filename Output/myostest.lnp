@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+"..\output\main.o"
+"..\output\startup_lpc17xx.o"
+"..\output\core_cm3.o"
+"..\output\system_lpc177x_8x.o"
+"..\output\lpc177x_8x_clkpwr.o"
+"..\output\lpc177x_8x_gpio.o"
+"..\output\lpc177x_8x_systick.o"
+"..\output\lpc177x_8x_uart.o"
+"..\output\uart0.o"
+--strict --scatter "..\Output\myostest.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\myostest.map" -o ..\Output\myostest.axf
